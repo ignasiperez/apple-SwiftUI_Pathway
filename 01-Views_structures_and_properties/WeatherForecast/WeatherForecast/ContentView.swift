@@ -11,6 +11,7 @@ struct ContentView: View {
     var body: some View {
         VStack {
             Text("Mon")
+            Image(systemName: "sun.max.fill")
             Text("High: 70")
             Text("Low: 50")
         }
