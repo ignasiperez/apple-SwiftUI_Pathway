@@ -12,6 +12,7 @@ struct ContentView: View {
         VStack {
             Text("Mon")
             Image(systemName: "sun.max.fill")
+                .foregroundStyle(Color.yellow)
             Text("High: 70")
             Text("Low: 50")
         }
