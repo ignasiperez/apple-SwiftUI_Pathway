@@ -18,6 +18,14 @@ struct ContentView: View {
                 Text("Low: 50")
             }
             .padding()
+            VStack {
+                Text("Tue")
+                Image(systemName: "cloud.rain.fill")
+                    .foregroundStyle(Color.blue)
+                Text("High: 60")
+                Text("Low: 40")
+            }
+            .padding()
         }
     }
 }
