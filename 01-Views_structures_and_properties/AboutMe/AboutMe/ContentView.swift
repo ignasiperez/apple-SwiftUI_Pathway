@@ -19,6 +19,11 @@ struct ContentView: View {
                 .tabItem {
                     Label("Story", systemImage: "book")
                 }
+            
+            FavoritesScreen()
+                .tabItem {
+                    Label("Favorites", systemImage: "star")
+                }
         } // TabView
     } // body
     

@@ -26,9 +26,9 @@ let information = Info(
     foods: ["🍎", "🥗", "🍨"],
     colors: [
         Color(
-            red: 255/255,
-            green: 246/255,
-            blue: 102/255
+            red: 148/255,
+            green: 17/255,
+            blue: 0/255
         ),
         Color(
             red: 21/255,
