@@ -13,6 +13,7 @@
 		6B55ECF22C131A0C00F17383 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B55ECF12C131A0C00F17383 /* Preview Assets.xcassets */; };
 		6B55ECF92C131B0B00F17383 /* WelcomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B55ECF82C131B0B00F17383 /* WelcomePage.swift */; };
 		6B55ECFB2C132AE100F17383 /* FeaturesPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B55ECFA2C132AE100F17383 /* FeaturesPage.swift */; };
+		6B55ECFD2C13703100F17383 /* FeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B55ECFC2C13703100F17383 /* FeatureCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		6B55ECF12C131A0C00F17383 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6B55ECF82C131B0B00F17383 /* WelcomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomePage.swift; sourceTree = "<group>"; };
 		6B55ECFA2C132AE100F17383 /* FeaturesPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturesPage.swift; sourceTree = "<group>"; };
+		6B55ECFC2C13703100F17383 /* FeatureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				6B55ECF02C131A0C00F17383 /* Preview Content */,
 				6B55ECF82C131B0B00F17383 /* WelcomePage.swift */,
 				6B55ECFA2C132AE100F17383 /* FeaturesPage.swift */,
+				6B55ECFC2C13703100F17383 /* FeatureCard.swift */,
 			);
 			path = OnboardingFlow;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 				6B55ECFB2C132AE100F17383 /* FeaturesPage.swift in Sources */,
 				6B55ECED2C131A0B00F17383 /* ContentView.swift in Sources */,
 				6B55ECEB2C131A0B00F17383 /* OnboardingFlowApp.swift in Sources */,
+				6B55ECFD2C13703100F17383 /* FeatureCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
