@@ -14,9 +14,15 @@ struct ContentView: View {
                 .tabItem {
                     Label("Home", systemImage: "person")
                 }
-        }
-    }
-}
+            
+            StoryScreen()
+                .tabItem {
+                    Label("Story", systemImage: "book")
+                }
+        } // TabView
+    } // body
+    
+} // ContentView
 
 
 #Preview {

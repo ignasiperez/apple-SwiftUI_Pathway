@@ -21,7 +21,7 @@ struct Info {
 let information = Info(
     image: "iperezvalls",
     name: "Ignasi Perez",
-    story: "After more than 14 years providing training and consulting on the Java programming language and design patterns, since 2018 I have been providing training on the Swift programming language ",
+    story: "After more than 14 years providing training and consulting on the Java programming language and design patterns, since 2018 I have been providing training on the Swift programming language",
     hobbies: ["music.quarternote.3", "figure.hiking", "figure.open.water.swim"],
     foods: ["🍎", "🥗", "🍨"],
     colors: [
