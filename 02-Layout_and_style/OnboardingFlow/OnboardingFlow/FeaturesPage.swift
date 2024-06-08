@@ -33,4 +33,6 @@ struct FeaturesPage: View {
 
 #Preview {
     FeaturesPage()
+        .background(Gradient(colors: gradientColors))
+        .foregroundStyle(.white)
 }
