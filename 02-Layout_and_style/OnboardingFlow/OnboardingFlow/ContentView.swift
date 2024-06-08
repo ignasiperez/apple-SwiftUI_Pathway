@@ -21,6 +21,8 @@ struct ContentView: View {
         }
         .background(Gradient(colors: gradientColors))
         .tabViewStyle(.page)
+        // When you apply .foregroundStyle to a view, the color will cascade down to all subviews that don’t set their own foreground style.
+        .foregroundStyle(.white)
         
     }
     
