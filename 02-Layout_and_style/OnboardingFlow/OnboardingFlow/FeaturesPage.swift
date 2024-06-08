@@ -33,6 +33,7 @@ struct FeaturesPage: View {
 
 #Preview {
     FeaturesPage()
+        .frame(maxHeight: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/)
         .background(Gradient(colors: gradientColors))
         .foregroundStyle(.white)
 }
