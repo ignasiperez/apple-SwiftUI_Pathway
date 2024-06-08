@@ -9,7 +9,7 @@ import SwiftUI
 
 struct FeaturesPage: View {
     var body: some View {
-        VStack {
+        VStack(spacing: 30) {
             Text("Features")
                 .font(.title)
                 .fontWeight(.semibold)
@@ -33,7 +33,7 @@ struct FeaturesPage: View {
 
 #Preview {
     FeaturesPage()
-        .frame(maxHeight: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/)
+        .frame(maxHeight: .infinity)
         .background(Gradient(colors: gradientColors))
         .foregroundStyle(.white)
 }
