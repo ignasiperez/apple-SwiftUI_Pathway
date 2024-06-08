@@ -25,6 +25,8 @@ struct FeaturesPage: View {
                 description: "Short summary"
             )
             
+            Spacer()
+            
         } // VStack
     }
     
