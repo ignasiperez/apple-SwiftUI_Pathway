@@ -23,7 +23,10 @@ struct FeatureCard: View {
             Spacer()
         } // HStack
         .padding()
-        .background(.tint, in: RoundedRectangle(cornerRadius: 12))
+        .background {
+            RoundedRectangle(cornerRadius: 12)
+                .foregroundStyle(.tint)
+        }
         .foregroundStyle(.white)
         .padding()
         
