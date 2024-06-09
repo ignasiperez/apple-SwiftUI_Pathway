@@ -9,7 +9,13 @@ import SwiftUI
 
 struct LayingOutContainersView: View {
     var body: some View {
-        Text("")
+        VStack {
+            Rectangle()
+                .foregroundStyle(.themeBlue)
+            
+            Circle()
+                .foregroundStyle(.themePink)
+        }
     }
 }
 
