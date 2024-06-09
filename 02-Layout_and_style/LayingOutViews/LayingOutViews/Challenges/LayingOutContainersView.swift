@@ -10,14 +10,18 @@ import SwiftUI
 struct LayingOutContainersView: View {
     var body: some View {
         VStack {
-            Rectangle()
-                .foregroundStyle(.themeBlue)
-            
-            Circle()
-                .foregroundStyle(.themePink)
-        }
+            ZStack {
+                Rectangle()
+                    .foregroundStyle(.themeBlue)
+                
+                Circle()
+                    .foregroundStyle(.themePink)
+                
+            }
+        } // VStack
     }
-}
+    
+} // LayingOutContainersView
 
 #Preview {
     LayingOutContainersView()
