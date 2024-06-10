@@ -13,9 +13,19 @@ struct SizingView: View {
             ZStack {
                 RoundedRectangle(cornerRadius: 10)
                     .foregroundStyle(.darkBrown)
+                VStack {
+                    Text("Roses are red,")
+                    Image("Rose")
+                        .resizable()
+                        .scaledToFit()
+                        .frame(maxWidth: 50)
+                        .foregroundColor(.themeRed)
+                    Text("violets are blue, ")
+                }
             }
+            
         } // VStack
-        
+        .foregroundStyle(.paleOrange)
     }
     
 } // SizingView
