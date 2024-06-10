@@ -9,7 +9,12 @@ import SwiftUI
 
 struct AmazingAlignmentView: View {
     var body: some View {
-        Text("")
+        VStack(alignment: .leading) {
+            Image(systemName: "books.vertical.fill")
+                .font(.system(size: 40))
+            Rectangle()
+                .frame(maxWidth: .infinity, maxHeight: 10)
+        }
         
     }
 } // AmazingAlignmentView
