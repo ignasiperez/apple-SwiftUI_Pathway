@@ -12,6 +12,7 @@
 		6B5E92362C15832300D7B20C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B5E92352C15832300D7B20C /* Assets.xcassets */; };
 		6B5E92392C15832300D7B20C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B5E92382C15832300D7B20C /* Preview Assets.xcassets */; };
 		6BBF0BE82C17082C00A9E481 /* SizingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBF0BE72C17082C00A9E481 /* SizingView.swift */; };
+		6BBF0BEA2C17183F00A9E481 /* AmazingAlignmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBF0BE92C17183F00A9E481 /* AmazingAlignmentView.swift */; };
 		6BE724212C1588BD0051AEEC /* LayingOutContainersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE724202C1588BD0051AEEC /* LayingOutContainersView.swift */; };
 /* End PBXBuildFile section */
 
@@ -22,6 +23,7 @@
 		6B5E92352C15832300D7B20C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6B5E92382C15832300D7B20C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6BBF0BE72C17082C00A9E481 /* SizingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizingView.swift; sourceTree = "<group>"; };
+		6BBF0BE92C17183F00A9E481 /* AmazingAlignmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmazingAlignmentView.swift; sourceTree = "<group>"; };
 		6BE724202C1588BD0051AEEC /* LayingOutContainersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayingOutContainersView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,6 +79,7 @@
 			children = (
 				6BE724202C1588BD0051AEEC /* LayingOutContainersView.swift */,
 				6BBF0BE72C17082C00A9E481 /* SizingView.swift */,
+				6BBF0BE92C17183F00A9E481 /* AmazingAlignmentView.swift */,
 			);
 			path = Challenges;
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B5E92342C15832100D7B20C /* ContentView.swift in Sources */,
+				6BBF0BEA2C17183F00A9E481 /* AmazingAlignmentView.swift in Sources */,
 				6BE724212C1588BD0051AEEC /* LayingOutContainersView.swift in Sources */,
 				6BBF0BE82C17082C00A9E481 /* SizingView.swift in Sources */,
 				6B5E92322C15832100D7B20C /* LayingOutViewsApp.swift in Sources */,

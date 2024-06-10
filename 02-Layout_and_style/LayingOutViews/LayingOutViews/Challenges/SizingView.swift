@@ -43,8 +43,8 @@ struct SizingView: View {
         } // VStack
         .font(.headline)
         .foregroundStyle(.paleOrange)
+        
     }
-    
 } // SizingView
 
 #Preview {

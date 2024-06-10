@@ -27,9 +27,9 @@ struct LayingOutContainersView: View {
                         .foregroundStyle(.themeOrange)
                 }
             }
+            
         } // VStack
     }
-    
 } // LayingOutContainersView
 
 #Preview {
