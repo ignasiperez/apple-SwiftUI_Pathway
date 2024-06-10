@@ -26,6 +26,10 @@ struct SizingView: View {
             ZStack {
                 RoundedRectangle(cornerRadius: 10)
                     . foregroundStyle(.darkBrown)
+                VStack {
+                    Text("I just love")
+                    Text("coding with you")
+                }
             }
             
         } // VStack
