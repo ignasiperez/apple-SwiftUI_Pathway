@@ -14,7 +14,15 @@ struct AmazingAlignmentView: View {
                 .font(.system(size: 40))
             Rectangle()
                 .frame(maxWidth: .infinity, maxHeight: 10)
-        }
+            
+            VStack(alignment: .trailing) {
+                Image(systemName: "books.vertical.fill")
+                    .font(.system(size: 40))
+                Rectangle()
+                    .frame(maxWidth: .infinity, maxHeight: 10)
+            }
+            
+        } // VStack
         
     }
 } // AmazingAlignmentView
