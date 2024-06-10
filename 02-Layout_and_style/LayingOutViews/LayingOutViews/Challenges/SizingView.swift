@@ -9,9 +9,16 @@ import SwiftUI
 
 struct SizingView: View {
     var body: some View {
-        Text("")
+        VStack {
+            ZStack {
+                RoundedRectangle(cornerRadius: 10)
+                    .foregroundStyle(.darkBrown)
+            }
+        } // VStack
+        
     }
-}
+    
+} // SizingView
 
 #Preview {
     SizingView()
