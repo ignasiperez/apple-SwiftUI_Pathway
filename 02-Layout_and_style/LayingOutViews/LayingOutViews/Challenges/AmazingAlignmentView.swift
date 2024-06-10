@@ -22,6 +22,14 @@ struct AmazingAlignmentView: View {
                     .frame(maxWidth: .infinity, maxHeight: 10)
             }
             
+            Image(systemName: "books.vertical.fill")
+                .font(.system(size: 40))
+                // By setting the maxWidth to .infinity, you stretch the Image view horizontally until it fills the remaining space.
+                // .frame(maxWidth: 120, alignment: .trailing)
+                .frame(maxWidth: .infinity, alignment: .trailing)
+            Rectangle()
+                .frame(maxWidth: .infinity, maxHeight: 10)
+            
         } // VStack
         
     }
