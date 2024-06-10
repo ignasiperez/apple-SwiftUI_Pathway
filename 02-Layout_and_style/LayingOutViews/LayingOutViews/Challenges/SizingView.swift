@@ -23,6 +23,10 @@ struct SizingView: View {
                     Text("violets are blue, ")
                 }
             }
+            ZStack {
+                RoundedRectangle(cornerRadius: 10)
+                    . foregroundStyle(.darkBrown)
+            }
             
         } // VStack
         .foregroundStyle(.paleOrange)
