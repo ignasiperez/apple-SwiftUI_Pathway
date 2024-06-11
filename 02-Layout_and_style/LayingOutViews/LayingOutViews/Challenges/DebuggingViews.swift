@@ -27,8 +27,6 @@ struct HalfCard: View {
             }
             .padding()
         }
-        .border(Color.blue)
-        .border(Color.green)
     }
 } // HalfCard
 
