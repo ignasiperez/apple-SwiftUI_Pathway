@@ -46,6 +46,8 @@ struct AmazingAlignmentView: View {
             
         } // VStack
         .padding(.horizontal)
+        .frame(width: 300)
+        .border(Color.black)
         
     }
 } // AmazingAlignmentView
