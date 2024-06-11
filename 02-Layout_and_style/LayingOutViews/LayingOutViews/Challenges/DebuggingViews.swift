@@ -27,7 +27,6 @@ struct HalfCard: View {
             .padding()
         }
         .border(Color.blue)
-        .frame(maxWidth: .infinity, maxHeight: .infinity)
         .border(Color.green)
     }
 } // HalfCard
