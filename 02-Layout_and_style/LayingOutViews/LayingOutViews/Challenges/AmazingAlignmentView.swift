@@ -30,7 +30,7 @@ struct AmazingAlignmentView: View {
             Rectangle()
                 .frame(maxWidth: .infinity, maxHeight: 10)
             
-            HStack {
+            HStack(spacing: 40) {
                 Spacer()
                 Image(systemName: "books.vertical.fill")
                     .font(.system(size: 40))
