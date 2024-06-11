@@ -10,6 +10,7 @@ import SwiftUI
 struct HalfCard: View {
     var body: some View {
         VStack {
+            Spacer()
             Image(systemName: "crown.fill")
                 .font(.system(size: 80))
             
