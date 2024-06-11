@@ -45,6 +45,7 @@ struct AmazingAlignmentView: View {
                 .frame(maxWidth: .infinity, maxHeight: 10)
             
         } // VStack
+        .padding(.horizontal)
         
     }
 } // AmazingAlignmentView
