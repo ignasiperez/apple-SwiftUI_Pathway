@@ -30,6 +30,19 @@ struct AmazingAlignmentView: View {
             Rectangle()
                 .frame(maxWidth: .infinity, maxHeight: 10)
             
+            HStack {
+                Spacer()
+                Image(systemName: "books.vertical.fill")
+                    .font(.system(size: 40))
+                    .background(.yellow)
+                Image(systemName: "books.vertical.fill")
+                    .font(.system(size: 40))
+                    .background(.white)
+            }
+            .background(.mint)
+            Rectangle()
+                .frame(maxWidth: .infinity, maxHeight: 10)
+            
         } // VStack
         
     }
