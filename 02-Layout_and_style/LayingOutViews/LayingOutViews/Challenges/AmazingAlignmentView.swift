@@ -38,6 +38,7 @@ struct AmazingAlignmentView: View {
                 Image(systemName: "books.vertical.fill")
                     .font(.system(size: 40))
                     .background(.white)
+                    .padding(.trailing, 40)
             }
             .background(.mint)
             Rectangle()
