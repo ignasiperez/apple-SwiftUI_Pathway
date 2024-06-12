@@ -33,7 +33,9 @@ struct MoodViewFull: View {
                 }  // ForEach
             } // HStack
         } // VStack
+        .frame(minHeight: 100, maxHeight: 200)
         .background(.paleOrange, in: RoundedRectangle(cornerRadius: 12))
+        
     }
 } // MoodViewFull
 
