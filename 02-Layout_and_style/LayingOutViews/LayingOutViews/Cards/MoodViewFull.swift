@@ -17,6 +17,7 @@ struct MoodViewFull: View {
             Text("what's your mood?")
                 .foregroundStyle(.darkBrown)
                 .font(.headline)
+                .frame(maxWidth: .infinity, alignment: .leading)
             HStack {
                 ForEach(emojis, id: \.self) { emoji in
                     Button {
