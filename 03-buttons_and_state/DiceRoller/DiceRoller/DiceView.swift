@@ -9,7 +9,7 @@ import SwiftUI
 
 struct DiceView: View {
     var body: some View {
-        Text("")
+        Image(systemName: "die.face.1")
         
     }
 } // DiceView
