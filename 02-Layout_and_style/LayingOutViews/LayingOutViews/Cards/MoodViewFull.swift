@@ -26,6 +26,7 @@ struct MoodViewFull: View {
                         VStack {
                             Text(emoji)
                                 .font(.system(size: 35))
+                                .frame(maxWidth: .infinity, alignment: .center)
                             Image(systemName: value == emoji ? "circle.fill" : "circle")
                                 .font(.system(size: 16))
                                 .foregroundColor(.darkBrown)
