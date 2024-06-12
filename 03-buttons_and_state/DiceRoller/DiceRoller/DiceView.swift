@@ -12,6 +12,8 @@ struct DiceView: View {
     
     var body: some View {
         Image(systemName: "die.face.\(numberOfPips)")
+            .resizable()
+            .frame(width: 100, height: 100)
         
     }
 } // DiceView
