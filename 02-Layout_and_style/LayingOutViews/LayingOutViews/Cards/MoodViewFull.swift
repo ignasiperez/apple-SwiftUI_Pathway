@@ -35,7 +35,12 @@ struct MoodViewFull: View {
             .frame(maxHeight: .infinity, alignment: .center)
         } // VStack
         .frame(minHeight: 100, maxHeight: 200)
-        .background(.paleOrange, in: RoundedRectangle(cornerRadius: 12))
+        .padding()
+        .background {
+            RoundedRectangle(cornerRadius: 12)
+                .fill(.paleOrange)
+                .stroke(.shadow, lineWidth: 3)
+        }
         
     }
 } // MoodViewFull
