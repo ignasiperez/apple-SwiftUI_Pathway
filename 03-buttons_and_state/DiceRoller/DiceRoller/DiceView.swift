@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct DiceView: View {
-    @State var numberOfPips: Int = 1
+    @State private var numberOfPips: Int = 1
     
     var body: some View {
         Image(systemName: "die.face.\(numberOfPips)")
