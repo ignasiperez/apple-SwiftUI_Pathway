@@ -16,9 +16,9 @@ struct ContentView: View {
             )
             
             HStack {
-                DiceView()
-                DiceView()
-                DiceView()
+                ForEach(1...3, id: \.description) { _ in
+                    DiceView()
+                }
             }
             
         } // VStack
