@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     @State private var numberOfDice: Int = 1
+    private let diceLimit: Int = 5
     
     var body: some View {
         VStack {
@@ -31,6 +32,7 @@ struct ContentView: View {
                 Button("Add dice") {
                     numberOfDice += 1
                 }
+                .disabled(numberOfDice == diceLimit)
             }
             .buttonStyle(.bordered)
             .padding()
