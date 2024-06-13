@@ -39,6 +39,9 @@ struct ContentView: View {
             .font(.title)
             
         } // VStack
+        .padding()
+        .background(.appBackground)
+        .tint(.white)
     }
 } // ContentView
 

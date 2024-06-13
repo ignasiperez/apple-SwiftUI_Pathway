@@ -22,7 +22,7 @@ struct DiceView: View {
                     numberOfPips = Int.random(in: 1...6)
                 }
             }
-            .buttonStyle(.borderedProminent)
+            .buttonStyle(.bordered)
             
         } // VStack
     }
