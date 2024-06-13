@@ -39,6 +39,7 @@ struct ContentView: View {
             
         } // VStack
         .padding()
+        .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, maxHeight: .infinity)
         .background(.appBackground)
         .tint(.white)
     }
