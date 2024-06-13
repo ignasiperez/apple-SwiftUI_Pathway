@@ -25,7 +25,7 @@ struct ContentView: View {
             }
             
             HStack {
-                Button("Remove dice") {
+                Button("Remove dice", systemImage: "minus.circle.fill") {
                     numberOfDice -= 1
                 }
                 .disabled(numberOfDice == 1)
