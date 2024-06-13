@@ -9,7 +9,10 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("")
+        Text("Dice Roller")
+            .font(.largeTitle.lowercaseSmallCaps()
+                .bold()
+            )
         
     }
 } // ContentView
