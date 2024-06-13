@@ -16,7 +16,7 @@ struct DiceView: View {
                 .resizable()
                 .frame(maxWidth: 100, maxHeight: 100)
                 .aspectRatio(1, contentMode: .fit)
-                .foregroundStyle(.white)
+                .foregroundStyle(.black, .white)
             
             Button("Roll") {
                 withAnimation {
