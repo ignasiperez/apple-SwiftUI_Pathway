@@ -34,8 +34,8 @@ struct ContentView: View {
                 }
                 .disabled(numberOfDice == diceLimit)
             }
-            .buttonStyle(.bordered)
             .padding()
+            .labelStyle(.iconOnly)
             
         } // VStack
     }
