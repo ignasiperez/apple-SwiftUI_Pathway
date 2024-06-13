@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var numberOfDice: Int = 1
+    
     var body: some View {
         VStack {
             Text("Dice Roller")
@@ -16,7 +18,7 @@ struct ContentView: View {
             )
             
             HStack {
-                ForEach(1...3, id: \.description) { _ in
+                ForEach(1...numberOfDice, id: \.description) { _ in
                     DiceView()
                 }
             }
