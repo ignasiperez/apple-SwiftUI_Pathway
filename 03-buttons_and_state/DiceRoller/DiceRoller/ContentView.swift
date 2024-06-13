@@ -9,11 +9,19 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Dice Roller")
-            .font(.largeTitle.lowercaseSmallCaps()
-                .bold()
+        VStack {
+            Text("Dice Roller")
+                .font(.largeTitle.lowercaseSmallCaps()
+                    .bold()
             )
-        
+            
+            HStack {
+                DiceView()
+                DiceView()
+                DiceView()
+            }
+            
+        } // VStack
     }
 } // ContentView
 
