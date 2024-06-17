@@ -11,6 +11,7 @@ struct ContentView: View {
     @State private var names: [String] = [
         "Elisha", "Andre", "Jasmine", "Po-Chun"
     ]
+    @State private var nameToAdd = ""
     
     
     var body: some View {
