@@ -23,9 +23,12 @@ struct ContentView: View {
             }
             
             TextField("Add Name", text: $nameToAdd)
+                .autocorrectionDisabled()
                 .onSubmit {
-                    names.append(nameToAdd)
-                    nameToAdd = ""
+                    if !nameToAdd.isEmpty {
+                        names.append(nameToAdd)
+                        nameToAdd = ""
+                    }
                 }
             
         } // VStack
