@@ -21,6 +21,9 @@ struct ContentView: View {
                     Text(name)
                 }
             }
+            
+            TextField("Add Name", text: $nameToAdd)
+            
         } // VStack
         .padding()
         
