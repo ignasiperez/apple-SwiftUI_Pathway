@@ -23,6 +23,10 @@ struct ContentView: View {
             }
             
             TextField("Add Name", text: $nameToAdd)
+                .onSubmit {
+                    names.append(nameToAdd)
+                    nameToAdd = ""
+                }
             
         } // VStack
         .padding()
