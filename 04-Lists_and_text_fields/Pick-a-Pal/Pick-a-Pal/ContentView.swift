@@ -9,7 +9,15 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("")
+        VStack {
+            List {
+                Text("Elisha")
+                Text("Andrea")
+                Text("Jasmine")
+                Text("Po-Chun")
+            }
+        } // VStack
+        .padding()
         
     }
 } // ContentView
