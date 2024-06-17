@@ -34,6 +34,14 @@ struct ContentView: View {
                     }
                 }
             
+            Button("Pick Random Name") {
+                if let randomName = names.randomElement() {
+                    pickedname = randomName
+                } else {
+                    pickedname = ""
+                }
+            }
+            
         } // VStack
         .padding()
         
