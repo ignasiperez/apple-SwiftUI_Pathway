@@ -12,6 +12,7 @@ struct ContentView: View {
         "Elisha", "Andre", "Jasmine", "Po-Chun"
     ]
     @State private var nameToAdd = ""
+    @State private var pickedname = ""
     
     
     var body: some View {
