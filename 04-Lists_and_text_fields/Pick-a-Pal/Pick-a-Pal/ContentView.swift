@@ -17,6 +17,8 @@ struct ContentView: View {
     
     var body: some View {
         VStack {
+            Text(pickedname.isEmpty ? " " : pickedname)
+            
             List {
                 ForEach(names, id: \.self) { name in
                     Text(name)
