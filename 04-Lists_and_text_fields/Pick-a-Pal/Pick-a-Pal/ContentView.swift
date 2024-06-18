@@ -28,6 +28,9 @@ struct ContentView: View {
             .bold()
             
             Text(pickedname.isEmpty ? " " : pickedname)
+                .font(.title2)
+                .bold()
+                .foregroundStyle(.tint)
             
             List {
                 ForEach(names, id: \.self) { name in
