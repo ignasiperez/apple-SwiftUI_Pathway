@@ -42,7 +42,7 @@ struct ContentView: View {
                 isOn: $shouldRemovePickedName
             )
             
-            Button("Pick Random Name") {
+            Button() {
                 if let randomName = names.randomElement() {
                     pickedname = randomName
                     
@@ -54,6 +54,8 @@ struct ContentView: View {
                 } else {
                     pickedname = ""
                 }
+            } label: {
+                Text("Pick Random Name")
             }
             .buttonStyle(.borderedProminent)
             .font(.title2)
