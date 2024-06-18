@@ -45,6 +45,12 @@ struct ContentView: View {
             Button("Pick Random Name") {
                 if let randomName = names.randomElement() {
                     pickedname = randomName
+                    
+                    if shouldRemovePickedName {
+                        names.removeAll { name in
+                            return (name == randomName)
+                        }
+                    }
                 } else {
                     pickedname = ""
                 }
