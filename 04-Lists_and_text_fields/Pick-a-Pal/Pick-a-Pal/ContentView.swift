@@ -13,6 +13,7 @@ struct ContentView: View {
     ]
     @State private var nameToAdd = ""
     @State private var pickedname = ""
+    @State private var shouldRemovePickedName = false
     
     
     var body: some View {
