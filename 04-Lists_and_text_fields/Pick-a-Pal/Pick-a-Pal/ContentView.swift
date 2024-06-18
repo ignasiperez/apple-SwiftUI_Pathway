@@ -18,6 +18,13 @@ struct ContentView: View {
     
     var body: some View {
         VStack {
+            VStack(spacing: 8) {
+                Image(systemName: "person.3.sequence.fill")
+                Text("Pick-a-Pal")
+            }
+            .font(.title)
+            .bold()
+            
             Text(pickedname.isEmpty ? " " : pickedname)
             
             List {
