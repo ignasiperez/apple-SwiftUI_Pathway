@@ -20,6 +20,7 @@ struct ContentView: View {
         VStack {
             VStack(spacing: 8) {
                 Image(systemName: "person.3.sequence.fill")
+                    .foregroundStyle(.tint)
                 Text("Pick-a-Pal")
             }
             .font(.title)
