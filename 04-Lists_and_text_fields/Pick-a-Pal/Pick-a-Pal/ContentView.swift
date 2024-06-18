@@ -37,6 +37,7 @@ struct ContentView: View {
                     Text(name)
                 }
             }
+            .clipShape(RoundedRectangle(cornerRadius: 8))
             
             TextField("Add Name", text: $nameToAdd)
                 .autocorrectionDisabled()
