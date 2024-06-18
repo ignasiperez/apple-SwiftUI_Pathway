@@ -56,6 +56,8 @@ struct ContentView: View {
                 }
             } label: {
                 Text("Pick Random Name")
+                    .padding(.vertical, 8)
+                    .padding(.horizontal, 16)
             }
             .buttonStyle(.borderedProminent)
             .font(.title2)
