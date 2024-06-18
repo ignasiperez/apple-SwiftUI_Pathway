@@ -55,6 +55,8 @@ struct ContentView: View {
                     pickedname = ""
                 }
             }
+            .buttonStyle(.borderedProminent)
+            .font(.title2)
             
         } // VStack
         .padding()
