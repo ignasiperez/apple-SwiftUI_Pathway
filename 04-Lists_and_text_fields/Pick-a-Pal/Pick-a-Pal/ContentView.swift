@@ -21,6 +21,7 @@ struct ContentView: View {
             VStack(spacing: 8) {
                 Image(systemName: "person.3.sequence.fill")
                     .foregroundStyle(.tint)
+                    .symbolRenderingMode(.hierarchical)
                 Text("Pick-a-Pal")
             }
             .font(.title)
