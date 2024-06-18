@@ -37,6 +37,11 @@ struct ContentView: View {
             
             Divider()
             
+            Toggle(
+                "Remove when picked",
+                isOn: $shouldRemovePickedName
+            )
+            
             Button("Pick Random Name") {
                 if let randomName = names.randomElement() {
                     pickedname = randomName
