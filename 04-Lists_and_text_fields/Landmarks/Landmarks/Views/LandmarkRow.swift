@@ -9,11 +9,13 @@
 import SwiftUI
 
 struct LandmarkRow: View {
+    var landmark: Landmark
+    
     var body: some View {
-        Text("")
+        Text("Hello World!")
     }
 } // LandmarkRow
 
 #Preview {
-    LandmarkRow()
+    LandmarkRow(landmark: landmarks[0])
 }
