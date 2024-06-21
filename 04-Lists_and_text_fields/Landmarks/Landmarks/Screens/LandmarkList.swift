@@ -14,9 +14,10 @@ struct LandmarkList: View {
             List(landmarks) { landmark in
                 LandmarkRow(landmark: landmark)
             }
+            .navigationTitle("Landmarks")
         } detail: {
             Text("Select a Landmark")
-        }
+        } // NavigationSplitView
 
     }
 } // LandmarkList
