@@ -41,6 +41,8 @@ struct LandmarkDetail: View {
             .padding()
             
         } // ScrollView
+        .navigationTitle(landmark.name)
+        .navigationBarTitleDisplayMode(.inline)
     }
 } // LandmarkDetail
 
