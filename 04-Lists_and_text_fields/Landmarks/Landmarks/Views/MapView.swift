@@ -9,6 +9,8 @@ import SwiftUI
 import MapKit
 
 struct MapView: View {
+    var coordinate: CLLocationCoordinate2D
+    
     private var region: MKCoordinateRegion {
         MKCoordinateRegion(
             center: CLLocationCoordinate2D(latitude: 34.011_286, longitude: -116.166_868),
@@ -22,5 +24,8 @@ struct MapView: View {
 } // MapView
 
 #Preview {
-    MapView()
+    MapView(
+        coordinate: CLLocationCoordinate2D(latitude: 34.011_286, 
+                                           longitude: -116.166_868)
+    )
 }
