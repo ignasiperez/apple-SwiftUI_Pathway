@@ -9,6 +9,8 @@
 import SwiftUI
 
 struct FavoriteButton: View {
+    @Binding var isSet: Bool
+    
     var body: some View {
         Text("Hello, World!")
         
@@ -16,5 +18,5 @@ struct FavoriteButton: View {
 } // FavoriteButton
 
 #Preview {
-    FavoriteButton()
+    FavoriteButton(isSet: .constant(true))
 }
