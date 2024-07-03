@@ -12,8 +12,16 @@ struct FavoriteButton: View {
     @Binding var isSet: Bool
     
     var body: some View {
-        Text("Hello, World!")
-        
+        Button {
+            isSet.toggle()
+        } label: {
+            Label(
+                "Toggle Favourite",
+                systemImage: isSet ? "star.fill" : "star"
+            )
+            .labelStyle(.iconOnly)
+            .foregroundStyle(isSet ? .yellow : .gray)
+        } // Button
     }
 } // FavoriteButton
 
